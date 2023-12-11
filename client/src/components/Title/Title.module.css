@@ -1,0 +1,35 @@
+.title {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.search::before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 25px;
+    height: 25px;
+    background: url('./../../assets/icons/free-icon-search.png') no-repeat;
+    background-size: cover;
+}
+
+.search input{
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #39ff14;
+    border-radius: 10px;
+    font-size: 14px;
+    display: block;
+}

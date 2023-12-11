@@ -1,0 +1,16 @@
+.myBtn {
+    width: 200px;
+    padding: 5px 15px;
+    font-size: 18px;
+    background: transparent;
+    border: 3px solid rgba(62,87,176,.6);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.myBtn:hover {
+    border-color:#39ff14;
+}

@@ -1,0 +1,93 @@
+
+.inspiration__body{
+    
+}
+
+.inspiration__menu{
+    background-color: azure;
+    width: 300px;
+    height: 105%;
+    display: flex;
+    border-radius: 35px;
+    border: 2px solid #39ff14;
+    margin-top: -20px;
+}
+
+.inspiration__data{
+    padding-left: 30px;
+    width: 1000px;
+    font-size: 20px;
+    font-family: SignPainter;
+    display: flex;
+}
+
+.generate__image{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 15px;
+}
+
+.generate__body_img{
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.generate__body_img img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #39ff14;
+    border-radius: 10px;
+}
+
+.generate__btn{
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #212E23;
+    color: #fff;
+    cursor: pointer;
+    transform: rotate(90deg);
+    width: 250px;
+    height: 40px;
+    margin-left: -105px;
+    margin-top: 130px;
+}
+
+.generate__btn:hover{
+    background-color: #fff;
+    color: #212E23;
+    border: 1px solid #39ff14;
+}
+
+.generate__paragraph {
+    font-size: 30px;
+    font-family: SignPainter;
+    text-transform: uppercase;
+}
+
+.inspiration__generate{
+    display: flex;
+}
+
+.generate__type input:not(:last-child){
+    margin-bottom: 30px;
+    margin-right: 15px;
+    background-color: #39ff14;
+}
+
+.generate__type{
+    font-size: 25px;
+    text-transform: uppercase;
+    border: 1px solid #39ff14;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 15px 15px 0px 15px;
+}
+
+.generate__checkbox{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

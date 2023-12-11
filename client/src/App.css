@@ -1,0 +1,15 @@
+.container {
+	padding: 0 15px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.container--content
+{
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.no-scroll {
+	overflow: hidden;
+}

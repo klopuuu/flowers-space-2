@@ -1,0 +1,15 @@
+.form{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.form input{
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #39ff14;
+    border-radius: 10px;
+    font-size: 14px;
+    display: block;
+}

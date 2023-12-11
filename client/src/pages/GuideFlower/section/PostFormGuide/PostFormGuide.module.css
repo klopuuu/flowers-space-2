@@ -1,0 +1,33 @@
+.form{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.form input{
+    width: 500px;
+    height: 50px;
+    font-size: 14px;
+    display: block;
+}
+
+textarea{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #39ff14;
+    border-radius: 10px;  
+    resize: none;
+    overflow: scroll;
+
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+
+}
+
+textarea:last-of-type{
+    max-height: 400px;
+    height: 100%;
+}
+
+/* .form input:last-of-type */

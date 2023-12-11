@@ -1,0 +1,40 @@
+.order__list {
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.list__col-name ul {
+    border-radius: 10px;
+    border-bottom: 2px solid #39ff14;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.list__item ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    border-bottom: 1px solid rgba(62,87,176,.6);
+    border-radius: 5px;
+}
+
+
+.list__item {
+    display: grid;
+    gap: 20px;
+}
+
+#status{
+    font-size: 25px;
+    height: 60px;
+    width: 100%;
+}
+
+#status:focus {
+    outline: none;
+}
